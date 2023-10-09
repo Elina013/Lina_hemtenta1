@@ -1,1 +1,42 @@
-body{background-image: linear-gradient(to bottom, yellow, red);}
+body{  
+    background-color: lightblue;
+    color: #333; 
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+#todo-form {
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-left: 5px;
+    color: black; 
+}
+
+.list-group-item span.completed {
+    text-decoration: line-through;
+}
+
+.list-group-item.completed {
+    background-color: #f0f0f0;
+    color: #888;
+}
+
+a {
+    color: #007BFF; 
+}
+
+input:focus {
+    border-color: #007BFF; 
+}
